@@ -31,11 +31,11 @@ git clone https://github.com/wangfei304187/myprj02.git
 
 
 [branch]
-git checkout -b dev
+git checkout -b dev     or     git switch -c dev
 git branch
-git checkout master
+git checkout master     or     git switch master
 git branch
-git checkout dev
+git checkout dev        or     git switch dev
 git branch
 
 
@@ -44,6 +44,9 @@ git checkout master
 git merge dev
 git branch -d dev
 
+
+git stash
+git stash list
 
 
 ===========================
