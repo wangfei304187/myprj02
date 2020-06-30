@@ -41,6 +41,7 @@ git branch
 git checkout -b bugFix af66f0
 git branch -d bugFix
 
+// force delete unmerged branch
 git branch -D newFeature
 
 
