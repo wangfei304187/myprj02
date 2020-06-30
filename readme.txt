@@ -28,6 +28,18 @@ git push -u origin master
 
 git clone https://github.com/wangfei304187/myprj02.git
 
+
+
+[branch]
+git checkout -b dev
+git branch
+git checkout master
+git branch
+git checkout dev
+git branch
+
+
+
 ===========================
 …or create a new repository on the command line
 echo "# myprj02" >> README.md
