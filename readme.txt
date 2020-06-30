@@ -31,13 +31,15 @@ git clone https://github.com/wangfei304187/myprj02.git
 
 
 [branch]
-git checkout -b dev
+git checkout -b dev     or     git switch -c dev
 git branch
-git checkout master
+git checkout master     or     git switch master
 git branch
-git checkout dev
+git checkout dev        or     git switch dev
 git branch
 
+git checkout -b bugFix af66f0
+git branch -d bugFix
 
 [merge]
 git checkout master
@@ -51,6 +53,13 @@ git branch -d dev
 5
 6
 [stash]
+
+[stash]
+git stash
+git stash list
+git stash apply stash@{0}
+
+
 
 
 ===========================
