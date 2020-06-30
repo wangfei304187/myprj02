@@ -9,6 +9,8 @@ git reflog
 git reset --hard HEAD
 git reset --heard HEAD~1
 
+git checkout HEAD
+
 git diff HEAD -- readme.txt
 
 第一次修改 -> git add -> 第二次修改 -> git add -> git commit
