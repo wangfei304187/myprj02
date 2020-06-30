@@ -57,7 +57,11 @@ git stash list
 git stash apply stash@{0}
 
 
-
+[remote]
+git remote
+git remote -v
+git push origin master
+git push origin dev
 
 ===========================
 …or create a new repository on the command line
