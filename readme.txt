@@ -45,6 +45,10 @@ git merge dev
 git branch -d dev
 
 
+1
+2
+3
+[stash]
 git stash
 git stash list
 git
