@@ -47,7 +47,7 @@ git branch -d dev
 
 git stash
 git stash list
-
+git
 
 ===========================
 …or create a new repository on the command line
