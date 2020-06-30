@@ -26,6 +26,8 @@ git remote add origin https://github.com/wangfei304187/myprj02.git
 git push -u origin master
 
 
+git clone https://github.com/wangfei304187/myprj02.git
+
 ===========================
 …or create a new repository on the command line
 echo "# myprj02" >> README.md
@@ -39,3 +41,6 @@ git push -u origin master
 git remote add origin https://github.com/wangfei304187/myprj02.git
 git push -u origin master
 ===========================
+
+
+
