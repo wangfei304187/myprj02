@@ -41,6 +41,9 @@ git branch
 git checkout -b bugFix af66f0
 git branch -d bugFix
 
+git branch -D newFeature
+
+
 [merge]
 git checkout master
 git merge dev
