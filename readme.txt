@@ -39,6 +39,12 @@ git checkout dev
 git branch
 
 
+[merge]
+git checkout master
+git merge dev
+git branch -d dev
+
+
 
 ===========================
 …or create a new repository on the command line
