@@ -38,6 +38,8 @@ git branch
 git checkout dev        or     git switch dev
 git branch
 
+git checkout -b bugFix af66f0
+git branch -d bugFix
 
 [merge]
 git checkout master
@@ -45,13 +47,13 @@ git merge dev
 git branch -d dev
 
 
-1
-2
-3
 [stash]
 git stash
 git stash list
-git
+git stash apply stash@{0}
+
+
+
 
 ===========================
 …or create a new repository on the command line
