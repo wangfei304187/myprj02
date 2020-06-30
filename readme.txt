@@ -44,13 +44,14 @@ git checkout master
 git merge dev
 git branch -d dev
 
-
 1
 2
 3
 4
 5
 6
+[stash]
+
 
 ===========================
 …or create a new repository on the command line
